@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Bhupesh Dawane - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Internship Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="placeholder.jpg" alt="Vishal Bhupesh Dawane" class="hero-image">
+            <h1>Vishal Bhupesh Dawane</h1>
+            <p>Aspiring Structural Engineer</p>
+            <p>"Building the Future with Precision and Passion"</p>
+            <div class="cta-buttons">
+                <button onclick="viewResume()">View Resume</button>
+                <button onclick="scrollToSection('contact')">Contact Me</button>
+                <button onclick="scrollToSection('projects')">Explore Projects</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Vishal Bhupesh Dawane, a passionate structural engineer in the making. Currently pursuing my B.E. in Civil Engineering with a CGPA of 7.60, graduating in 2025. I am committed to designing and analyzing innovative structures with a keen interest in sustainable construction practices.</p>
+        <div class="timeline">
+            <div class="timeline-item">2021: Began Civil Engineering degree</div>
+            <div class="timeline-item">2024: Internship at ABC Constructions</div>
+            <div class="timeline-item">2025: Final Year Project on Smart Sustainable Building Design</div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Internship Experience</h2>
+        <h3>ABC Constructions (Summer 2024)</h3>
+        <ul>
+            <li>Designed RC structures for residential buildings.</li>
+            <li>Analyzed structural stability using STAAD.Pro and AutoCAD.</li>
+            <li>Participated in site inspections for safety compliance.</li>
+            <li>Prepared material strength and load calculation reports.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Smart Sustainable Building Design</h3>
+            <p>Eco-friendly multi-story building design reducing material usage by 15% while maintaining stability. Tools: ETABS, Revit.</p>
+        </div>
+        <div class="project">
+            <h3>Earthquake-Resistant Housing</h3>
+            <p>Single-family housing prototype designed to withstand seismic activity. Tools: SAP2000.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <p>AutoCAD, STAAD.Pro, ETABS, Revit, SAP2000, MS Project</p>
+        <h3>Programming Skills</h3>
+        <p>Python, MATLAB</p>
+        <h3>Soft Skills</h3>
+        <p>Leadership, teamwork, problem-solving, attention to detail</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vishal Bhupesh Dawane. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
